@@ -1,11 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Software Developer Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="og:description" content="aqui va la descripciond de la pagina"/>
+    <meta name="og:title" content="portafolio training" />
+    <meta name="og:image" content="la imagen"/>
+    <title>Daniel Ramirez Luna - Software Developer</title>
+    <link rel="shortcut icon" href="./asset/image/logo-png-5.png" type="image/x-icon"/>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <h2>About Me</h2>
+        <img height="200" src="./asset/image/profile_picture_daniel.jpg" alt="profile daniel picture">
+        <p>Knowledge and application of software engineering principles 
+            (design patterns, architecture principles, automated tests) 
+            in backend application development using Python, Java, and C#, 
+            using frameworks such as Django, Fast API, Spring Boot, .NET, 
+            JUnit respectively. Basic understanding of web programming with 
+            HTML/CSS/JavaScript.</p>
+    </section>
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Spring Boot</li>
+            <li>.NET</li>
+            <li>FASTAPI</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Responsibility</li>
+            <li>Discipline</li>
+            <li>Teamwork</li>
+            <li>Assertive communication</li>
+            <li>Resilience</li>
+        </ul>
+    </section>
+    <section>
+        <h1>PROJECTS</h1>
+        <article>
+            <header>
+                <h3>Appointment Management</h3>
+                <span>2022/12/10</span>
+            </header>
+            <main>
+                <img height="100"src="./asset/image/Patient_list.png"alt="patiente list picture"/>
+                <p></p>
+                A simple 
+                web application that manages and handles 
+                consultations for patients who go to a dentist
+                </p>
+            </main>
+            <footer>
+                <p>Technologies used </p>
+                <ul>
+                <li>Java</li>
+                <li>Spirngboot</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                </ul>
+                <p>GitHub Repository: <a href="https://github.com/leinadanul/Odontologo_DH">Dentist management</a></p>
+            </footer>
+            </article>
+            <article>
+                <header>
+                    <h3>Booking Management</h3>
+                    <span>2023/04/15</span>
+                </header>
+                <main>
+                    <img height="100"src="./asset/image/booking_main_picture.png"alt="Home picture of stay easy page"/>
+                    <p></p>
+                    application
+                    website that seeks to provide the greatest 
+                    comfort and confidence to customers 
+                    when looking for a place to stay in Colombia.
+                    </p>
+                </main>
+                <footer>
+                    <p>Technologies used </p>
+                    <ul>
+                    <li>Java</li>
+                    <li>Spirngboot</li>
+                    <li>React</li>
+                    <li>AWS</li>
+                    <li>Bootstrap</li>
+                    <li>MySql</li>
+                    <li>JavaScript</li>
+                    <li>Css</li>
+                    </ul>
+                    <p>GitHub Repository: <a href="https://github.com/leinadanul/Stay_Easy">Booking management</a></p>
+                </footer>
+                </article>
+        </section>
+        <section>
+    <section>
+        <h1>Contact me</h1>
+        <form>
+            <fieldset>
+                <legend>Personal information</legend>
+                <label>
+                    First Name
+                    <input type="text" name="user-name" placeholder="John" required/>
+                </label>
+                <label>
+                    Last Name
+                    <input type="text" name="user-name" placeholder="Doe" required/>
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="user-email" placeholder="JohnDoe@mail.com" required/>
+                </label>
+                <label>
+                    Phone Number
+                    <input type="number" name="Contact-number" placeholder="" required/>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional information</legend>
+                <datalist id="languages">
+                    <option value="C#"></option>
+                    <option value="Java"></option>
+                    <option value="Python"></option>
+                    <option value="Go"></option>
+                    <option value="TypeScript"></option>
+                </datalist>
+                <label>
+                    What technology are you focused on?
+                    <input list="languages" type="text" name=""/>
+                </label>
+                <label>
+                    Reason to contact me
+                    <textarea name="reason-contact" rows="4" cols="50" placeholder="Enter your message" required></textarea>
+                </label>
+            </fieldset>
+            <button>Send</button>
+        </form>
+    </section>
+</main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a></li>
+                <li><a href="https://twitter.com/" target="_blank" rel="noreferrer">Twitter</a></li>
+                <li><a href="linkedin.com/in/darluna" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                <li><a href="github.com/leinadanul" target="_blank" rel="noreferrer">GitHub</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
