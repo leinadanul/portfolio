@@ -1,0 +1,29 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.about__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about__data {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about__info {
+    flex: 1;
+}
+
+.about__description{
+    font-size: 20px;
+}
+.about__profile-picture {
+    height: 200px;
+    border-radius: 10px;
+}
