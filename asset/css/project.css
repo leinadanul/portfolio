@@ -1,0 +1,63 @@
+.project {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project__data{
+    display: flex;
+    gap: 40px;
+}
+.project__card {
+    background-color:rgb(37, 35, 31);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.project__header {
+    margin-bottom: 15px;
+}
+
+.project__image {
+    width: 500px; 
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.project__description{
+    margin-bottom: 10px;
+    font-size: 20px;
+
+    
+}
+.project__list-technologies {
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.project__item {
+    display: inline-block;
+    background-color: #9aa1a8;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.project__link{
+    margin-top: 20px;
+}
+
+.project__card a {
+    color: #1c7be0;
+    text-decoration: none;
+}
+
+.project__card a:hover {
+    text-decoration: underline;
+}
