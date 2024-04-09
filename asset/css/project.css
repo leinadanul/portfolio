@@ -16,6 +16,10 @@
     color: white;
 }
 
+.project__card:hover {
+    border: 2px solid white;
+}
+
 
 .project__header {
     margin-bottom: 15px;
