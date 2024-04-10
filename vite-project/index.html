@@ -8,20 +8,32 @@
     <meta name="og:title" content="portafolio training" />
     <meta name="og:image" content="la imagen"/>
     <title>Daniel Ramirez Luna - Software Developer</title>
-    <link rel="shortcut icon" href="./asset/image/logo-png-5.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="logo-png-5.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="./asset/css/index.css">
+    <link rel="stylesheet" href="./src/css/index.css">
 </head>
-<body>
+<body class="svg-background">
     <header class="header">
         <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-code"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" /><path d="M14 4l-4 16" /></svg>
         <nav>    
-        <ul class="header__menu">
+        <ul class="header__menu header__menu--hidden" >
                 <li class="header__item header__item--active">Home</li>
                 <li class="header__item"><a href="#about">About</a></li>
                 <li class="header__item"><a href="#project">Projects</a></li>
                 <li class="header__item"><a href="#contact">Contact</a></li>
             </ul>
+            <svg class="header__open"  xmlns="http://www.w3.org/2000/svg"  
+            width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  
+            stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  
+            class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" />
+        </svg>
+        <svg class="header__close header__menu--hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
         </nav>
     </header>
     <main class="main">
@@ -39,7 +51,7 @@
                         HTML/CSS/JavaScript.
                     </p>
                 </div>
-                <img class="about__profile-picture" height="200" src="./asset/image/profile_picture_daniel.jpg" alt="profile daniel picture">
+                <img class="about__profile-picture" src="./public/profile_picture_daniel.jpg" alt="profile daniel picture">
             </div>
         </section>
         <div class="skills">
@@ -76,7 +88,7 @@
                 <span>2022/12/10</span>
             </header>
             <main>
-                <img class="project__image" src="./asset/image/Patient_list.png"alt="patiente list picture"/>
+                <img class="project__image" src="./public/Patient_list.png" alt="patiente list picture"/>
                 <p class="project__description">
                 A simple 
                 CRUD application that manages and handles 
@@ -100,7 +112,7 @@
                     <span>2023/04/15</span>
                 </header>
                 <main>
-                    <img class="project__image" src="./asset/image/booking_main_picture.png"alt="patiente list picture"/>
+                    <img class="project__image" src="./public/booking_main_picture.png" alt="patiente list picture"/>
                     <p class="project__description">
                         application
                         website that seeks to provide the greatest 
@@ -119,11 +131,43 @@
                         <li class="project__item">MySql</li>
                         <li class="project__item">JavaScript</li>
                         <li class="project__item">Css</li>
-
                     </ul>
                     <p class="project__link">GitHub Repository: <a href="https://github.com/leinadanul/Stay_Easy">Booking management</a></p>
                 </footer>
                 </article>
+                <article class="project__card">
+                    <header class="project__header">
+                        <h3>Booking Management</h3>
+                        <span>2023/04/15</span>
+                    </header>
+                    <main>
+                        <img class="project__image" src="./public/booking_main_picture.png" alt="patiente list picture"  onclick="openModal('modal_card')"/>
+                    <div id="modal_card" class="modal">
+                        <span class="close" onclick="closeModal('modal1')">&times;</span>
+                        <img class="modal-content" src="./asset/image/Patient_list.png" alt="patiente list picture">
+                        <p class="project__description">
+                            application
+                            website that seeks to provide the greatest 
+                            comfort and confidence to customers 
+                            when looking for a place to stay in Colombia.
+                        </p>
+                    </main>
+                    <footer>
+                        <p>Technologies used </p>
+                        <ul class="project__list-technologies">
+                            <li class="project__item">Java</li>
+                            <li class="project__item">Spirngboot</li>
+                            <li class="project__item">React</li>
+                            <li class="project__item">AWS</li>
+                            <li class="project__item">Bootstrap</li>
+                            <li class="project__item">MySql</li>
+                            <li class="project__item">JavaScript</li>
+                            <li class="project__item">Css</li>
+                        </ul>
+                        <p class="project__link">GitHub Repository: <a href="https://github.com/leinadanul/Stay_Easy">Booking management</a></p>
+                    </footer>
+                    </div>
+                    </article>
             </div>
         </section>
     <section id="contact">
@@ -158,6 +202,6 @@
             </ul>
         </nav>
     </footer>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/ts/main.ts"></script>
 </body>
 </html>

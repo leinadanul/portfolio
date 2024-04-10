@@ -1,0 +1,29 @@
+.footer{
+    padding: 20px;
+    text-align: center;
+}
+
+.footer__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__social-media {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer__social-media:last-child {
+    margin-right: 0;
+}
+
+.footer__list a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer__list a:hover{
+    color: #0056b3;
+
+}
