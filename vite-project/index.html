@@ -37,139 +37,34 @@
         </nav>
     </header>
     <main class="main">
-        <section class="about" id="about">
-            <h2 class="about__title">About Me</h2>
-            <div class="about__data">
-                <div class="about__info">
-                    <h1 class="about__name">Daniel Ramirez</h1>
-                    <h3 class="about__education">Tech Developer</h3>
-                    <p class="about__description">Knowledge and application of software engineering principles
-                        (design patterns, architecture principles, automated tests)
-                        in backend application development using Python, Java, and C#,
-                        using frameworks such as Django, Fast API, Spring Boot, .NET,
-                        JUnit respectively. Basic understanding of web programming with
-                        HTML/CSS/JavaScript.
-                    </p>
-                </div>
-                <img class="about__profile-picture" src="./public/profile_picture_daniel.jpg" alt="profile daniel picture">
-            </div>
-        </section>
-        <div class="skills">
-            <section>
-                <h2 class="skills__title">Technical Skills</h2>
-                <ul class="skills__list">
-                    <li class="skills__item"><i class="fab fa-java"></i> Java</li>
-                    <li class="skills__item"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-c-sharp"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 9a3 3 0 0 0 -3 -3h-.5a3.5 3.5 0 0 0 -3.5 3.5v5a3.5 3.5 0 0 0 3.5 3.5h.5a3 3 0 0 0 3 -3" /><path d="M16 7l-1 10" /><path d="M20 7l-1 10" /><path d="M14 10h7.5" /><path d="M21 14h-7.5" /></svg></i> C#</li>
-                    <li class="skills__item"><i class="fab fa-python"></i> Python</li>
-                    <li class="skills__item"><i class="fas fa-server"></i> Spring Boot</li>
-                    <li class="skills__item"><i class="fas fa-code"></i> .NET</li>
-                    <li class="skills__item"><i class="fas fa-code"></i> FASTAPI</li>
-                    <li class="skills__item"><i class="fab fa-html5"></i> HTML</li>
-                    <li class="skills__item"><i class="fab fa-css3-alt"></i> CSS</li>
-                </ul>
-            </section>
-            <section>
-                <h2 class="skills__title">Soft Skills</h2>
-                <ul class="skills__list">
-                    <li class="skills__item"><i class="fas fa-check-circle"></i> Responsibility</li>
-                    <li class="skills__item"><i class="fas fa-check-circle"></i> Discipline</li>
-                    <li class="skills__item"><i class="fas fa-users"></i> Teamwork</li>
-                    <li class="skills__item"><i class="fas fa-comments"></i> Assertive communication</li>
-                    <li class="skills__item"><i class="fas fa-shield-alt"></i> Resilience</li>
-                </ul>
-            </section>
-        </div>
-        <section class="project" id="project">
-        <h1>PROJECTS</h1>
-        <div class="project__data">
-        <article class="project__card">
-            <header class="project__header">
-                <h3>Appointment Management</h3>
-                <span>2022/12/10</span>
-            </header>
-            <main>
-                <img class="project__image" src="./public/Patient_list.png" alt="patiente list picture"/>
-                <p class="project__description">
-                A simple 
-                CRUD application that manages and handles 
-                consultations for patients who go to a dentist
-                </p>
-            </main>
-            <footer>
-                <p>Technologies used </p>
-                <ul class="project__list-technologies">
-                <li class="project__item">Java</li>
-                <li class="project__item">Spirngboot</li>
-                <li class="project__item">JavaScript</li>
-                <li class="project__item">HTML</li>
-                </ul>
-                <p class="project__link">GitHub Repository: <a href="https://github.com/leinadanul/Odontologo_DH">Dentist management</a></p>
-            </footer>
-            </article>
-            <article class="project__card">
-                <header class="project__header">
-                    <h3>Booking Management</h3>
-                    <span>2023/04/15</span>
-                </header>
-                <main>
-                    <img class="project__image" src="./public/booking_main_picture.png" alt="patiente list picture"/>
-                    <p class="project__description">
-                        application
-                        website that seeks to provide the greatest 
-                        comfort and confidence to customers 
-                        when looking for a place to stay in Colombia.
-                    </p>
-                </main>
-                <footer>
-                    <p>Technologies used </p>
-                    <ul class="project__list-technologies">
-                        <li class="project__item">Java</li>
-                        <li class="project__item">Spirngboot</li>
-                        <li class="project__item">React</li>
-                        <li class="project__item">AWS</li>
-                        <li class="project__item">Bootstrap</li>
-                        <li class="project__item">MySql</li>
-                        <li class="project__item">JavaScript</li>
-                        <li class="project__item">Css</li>
-                    </ul>
-                    <p class="project__link">GitHub Repository: <a href="https://github.com/leinadanul/Stay_Easy">Booking management</a></p>
-                </footer>
-                </article>
-                <article class="project__card">
-                    <header class="project__header">
-                        <h3>Booking Management</h3>
-                        <span>2023/04/15</span>
-                    </header>
-                    <main>
-                        <img class="project__image" src="./public/booking_main_picture.png" alt="patiente list picture"  onclick="openModal('modal_card')"/>
-                    <div id="modal_card" class="modal">
-                        <span class="close" onclick="closeModal('modal1')">&times;</span>
-                        <img class="modal-content" src="./asset/image/Patient_list.png" alt="patiente list picture">
-                        <p class="project__description">
-                            application
-                            website that seeks to provide the greatest 
-                            comfort and confidence to customers 
-                            when looking for a place to stay in Colombia.
-                        </p>
-                    </main>
-                    <footer>
-                        <p>Technologies used </p>
-                        <ul class="project__list-technologies">
-                            <li class="project__item">Java</li>
-                            <li class="project__item">Spirngboot</li>
-                            <li class="project__item">React</li>
-                            <li class="project__item">AWS</li>
-                            <li class="project__item">Bootstrap</li>
-                            <li class="project__item">MySql</li>
-                            <li class="project__item">JavaScript</li>
-                            <li class="project__item">Css</li>
-                        </ul>
-                        <p class="project__link">GitHub Repository: <a href="https://github.com/leinadanul/Stay_Easy">Booking management</a></p>
-                    </footer>
+            <section class="about" id="about">
+                <h2 class="about__title">About Me</h2>
+                <div class="about__data">
+                    <div class="about__info">
+                        <h1 class="about__name"></h1>
+                        <h3 class="about__education"></h3>
+                        <p class="about__description"></p>
                     </div>
-                    </article>
+                    <img class="about__profile-picture" src="" alt="profile daniel picture">
+                </div>
+            </section>
+            <div class="skills">
+                <section>
+                    <h2 class="skills__title">Technical Skills</h2>
+                    <ul class="skills__list skills__list--technical">
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="skills__title">Soft Skills</h2>
+                    <ul class="skills__list skills__list--soft">
+                    </ul>
+                </section>
             </div>
-        </section>
+            <section class="project" id="project">
+                <h1>PROJECTS</h1>
+                <div class="project__data" id="projects">
+                </div>
+            </section>            
     <section id="contact">
         <h1>Contact me</h1>
         <form>

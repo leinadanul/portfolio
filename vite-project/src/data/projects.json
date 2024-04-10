@@ -1,0 +1,20 @@
+{
+    "pojects":[
+        {
+            "title": "Appointment Management" ,
+            "date": "2022/12/10" ,
+            "image": "./public/Patient_list.png" ,
+            "description": "A simple CRUD application that manages and handles consultations for patients who go to a dentist",
+            "tags": ["Java", "Springboot", "JavaScript", "HTML"] ,
+            "githubLink": "https://github.com/leinadanul/Odontologo_DH"
+        },
+        {
+            "title": "Booking Management",
+            "date": "2023/04/15",
+            "image": "./public/booking_main_picture.png",
+            "description": "Application website that seeks to provide the greatest comfort and confidence to customers when looking for a place to stay in Colombia.",
+            "tags": ["Java", "Springboot", "React", "AWS", "Bootstrap", "MySql", "JavaScript", "Css"],
+            "githubLink": "https://github.com/leinadanul/Stay_Easy"
+        }
+    ]
+}
