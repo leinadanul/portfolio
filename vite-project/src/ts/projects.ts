@@ -43,7 +43,7 @@ export function renderProjectInfo() {
                             <ul class="project__list-technologies">
                                 ${project.tags.map(tech => `<li class="project__item">${tech}</li>`).join('')}
                             </ul>
-                            <p class="project__link">GitHub Repository: <a href="${project.githubLink}">${project.title}</a></p>
+                            <p class="project__link">GitHub Repository: <a href="${project.githubLink}" target="_blank">${project.title}</a></p>
                         </footer>
                     `;
                     modal.style.display = 'block';
@@ -54,11 +54,13 @@ export function renderProjectInfo() {
                 projectsContainer.appendChild(projectCard);
             }
         });
-
         modal.addEventListener('click', (event) => {
             if (event.target === modal) {
                 modal.style.display = 'none';
             }
         });
+        
+        
+        
     }
 }

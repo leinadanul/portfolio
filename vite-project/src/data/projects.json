@@ -31,6 +31,22 @@
             "description": "Application website that seeks to provide the greatest comfort and confidence to customers when looking for a place to stay in Colombia.",
             "tags": ["Java", "Springboot", "React", "AWS", "Bootstrap", "MySql", "JavaScript", "Css"],
             "githubLink": "https://github.com/leinadanul/Stay_Easy"
+        },
+        {
+            "title": "Booking Management",
+            "date": "2023/04/15",
+            "image": "./public/booking_main_picture.png",
+            "description": "Application website that seeks to provide the greatest comfort and confidence to customers when looking for a place to stay in Colombia.",
+            "tags": ["Java", "Springboot", "React", "AWS", "Bootstrap", "MySql", "JavaScript", "Css"],
+            "githubLink": "https://github.com/leinadanul/Stay_Easy"
+        },
+        {
+            "title": "Booking Management",
+            "date": "2023/04/15",
+            "image": "./public/booking_main_picture.png",
+            "description": "Application website that seeks to provide the greatest comfort and confidence to customers when looking for a place to stay in Colombia.",
+            "tags": ["Java", "Springboot", "React", "AWS", "Bootstrap", "MySql", "JavaScript", "Css"],
+            "githubLink": "https://github.com/leinadanul/Stay_Easy"
         }
     ]
 }

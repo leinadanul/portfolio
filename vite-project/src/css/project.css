@@ -1,8 +1,15 @@
 .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+
 }
 
 .project__data{
+    margin-top: 20px;
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
@@ -16,9 +23,32 @@
     border-radius: 1em;
     background: #2b7a78;
 }
+.project__card h3 
+{
+    margin: 10px;
+    margin-bottom: 20px;
+    color: #DEF2F1;
+
+
+}
+.project__card span{
+    margin: 10px;
+    margin-bottom: 20px;
+}
 
 .project__title{
-    margin-left: 30px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #17252a;
+    
+    
+}
+
+.project__card {
+    transition: transform 0.3s ease; 
+}
+.project__card:hover {
+    transform: scale(1.05); 
 }
 
 .project__date{
@@ -26,13 +56,15 @@
 }
 
 
-.project__card:hover {
-    border: 2px solid white;
-}
-
 
 .project__header {
     margin-bottom: 5px;
+    font-size: 18px;
+    color: #17252A;
+}
+
+.project__header span{
+    margin-top: 100px;
     font-size: 18px;
 }
 
@@ -45,6 +77,7 @@
 .project__description{
     margin-bottom: 10px;
     font-size: 16px;
+    color:#17252A
 
     
 }

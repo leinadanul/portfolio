@@ -1,3 +1,18 @@
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #17252a;
+    
+}
+
 .contact__form-container {
     max-width: 100%;
     margin: 0 auto;
@@ -29,16 +44,20 @@
 
 .contact__form-container button {
     display: block;
-    width: 100%;
-    padding: 10px;
+    margin: 0 auto; 
+    width: 50%; 
+    max-width: 200px; 
+    padding: 5px; 
     background-color: #17252A;
     color: #2B7A78;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px; 
     margin-top: 10px;
+    font-weight: bold;
 }
+
 
 .contact__form-container button:hover {
     background-color: #DEF2F1
