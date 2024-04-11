@@ -5,7 +5,6 @@
     "profilePicture": "./public/profile_picture_daniel.jpg",
     "technicalSkills": [
         { "name": "Java", "iconClass": "fab fa-java" },
-        { "name": "C#", "iconClass": "icon-tabler icon-tabler-brand-c-sharp" },
         { "name": "Python", "iconClass": "fab fa-python" },
         { "name": "Spring Boot", "iconClass": "fas fa-server" },
         { "name": ".NET", "iconClass": "fas fa-code" },

@@ -51,25 +51,36 @@
             <div class="skills">
                 <section>
                     <h2 class="skills__title">Technical Skills</h2>
+                    <details>
                     <ul class="skills__list skills__list--technical">
                     </ul>
+                </details>
                 </section>
                 <section>
                     <h2 class="skills__title">Soft Skills</h2>
+                    <details>
                     <ul class="skills__list skills__list--soft">
                     </ul>
+                </details>
                 </section>
             </div>
             <section class="project" id="project">
                 <h1>PROJECTS</h1>
                 <div class="project__data" id="projects">
                 </div>
-            </section>            
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div id="modal-content"></div>
+                    </div>
+                </div>
+            </section>
+                
     <section id="contact">
         <h1>Contact me</h1>
         <form>
             <fieldset class="contact__form-container">
-                <legend>Personal information</legend>
+                <legend>Personal Information</legend>
                 <label>
                     Name
                     <input class="contact__input" type="text" name="user-name" placeholder="John" required/>

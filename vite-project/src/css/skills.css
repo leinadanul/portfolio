@@ -17,6 +17,8 @@
 .skills__list {
     list-style-type: none;
     padding: 0;
+    color: #DEF2F1;
+
 }
 
 .skills__item {

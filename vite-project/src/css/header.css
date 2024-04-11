@@ -27,7 +27,7 @@ border: 1px solid rgba(0, 0, 0, 0.03);
 
 .header__item{
     font-weight: bold;
-    color: aliceblue;
+    color: #FEFFFF;
     cursor: pointer;
     text-decoration: none;
 }
@@ -44,7 +44,7 @@ border: 1px solid rgba(0, 0, 0, 0.03);
 
 
 .header__item:hover {
-    background-color: rgb(250, 250, 250); 
+    background-color: #3AAFA9; 
     color: rgb(255, 255, 255);
 }
 .header__close, .header__open{
