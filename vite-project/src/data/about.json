@@ -1,0 +1,22 @@
+{
+    "name": "Daniel Ramirez",
+    "title": "Tech Developer",
+    "description": "Knowledge and application of software engineering principles (design patterns, architecture principles, automated tests) in backend application development using Python, Java, and C#, using frameworks such as Django, Fast API, Spring Boot, .NET, JUnit respectively. Basic understanding of web programming with HTML/CSS/JavaScript.",
+    "profilePicture": "./public/profile_picture_daniel.jpg",
+    "technicalSkills": [
+        { "name": "Java", "iconClass": "fab fa-java" },
+        { "name": "Python", "iconClass": "fab fa-python" },
+        { "name": "Spring Boot", "iconClass": "fas fa-server" },
+        { "name": ".NET", "iconClass": "fas fa-code" },
+        { "name": "FASTAPI", "iconClass": "fas fa-code" },
+        { "name": "HTML", "iconClass": "fab fa-html5" },
+        { "name": "CSS", "iconClass": "fab fa-css3-alt" }
+      ],
+      "softSkills": [
+        { "name": "Responsibility", "iconClass": "fas fa-check-circle" },
+        { "name": "Discipline", "iconClass": "fas fa-check-circle" },
+        { "name": "Teamwork", "iconClass": "fas fa-users" },
+        { "name": "Assertive communication", "iconClass": "fas fa-comments" },
+        { "name": "Resilience", "iconClass": "fas fa-shield-alt" }
+      ]
+}

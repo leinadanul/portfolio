@@ -1,0 +1,82 @@
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.5);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.6px);
+-webkit-backdrop-filter: blur(2.6px);
+border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.header__menu{
+    display: flex;
+    gap: 20px;
+    list-style: none ;
+}
+.header__close{
+    display: none;
+}
+.header__open{
+    display: none;
+}
+
+
+.header__item{
+    font-weight: bold;
+    color: #FEFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.header__item {
+    transition: color 2s; 
+}
+.header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.header__item:hover {
+    background-color: #3AAFA9; 
+    color: rgb(255, 255, 255);
+}
+.header__close, .header__open{
+    cursor: pointer;
+}
+@media(width <= 720px) {
+    .header__menu--hidden {
+        display: none !important;
+}
+.header__open, .header__close {
+    display: block;
+}
+
+
+.header__menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    box-shadow:  0px -2px 20px 1px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+.about {
+    margin-top: 50px;
+}
+
+@media(width > 720px){
+    .header__close, .header__open{
+        display: none;
+    }
+
+}
+}
+

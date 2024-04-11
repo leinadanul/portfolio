@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Software Developer Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="og:description" content="aqui va la descripciond de la pagina"/>
+    <meta name="og:title" content="portafolio training" />
+    <meta name="og:image" content="la imagen"/>
+    <title>Daniel Ramirez Luna - Software Developer</title>
+    <link rel="shortcut icon" href="logo-png-5.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+<body class="svg-background">
+    <header class="header">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-code"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" /><path d="M14 4l-4 16" /></svg>
+        <nav>    
+        <ul class="header__menu header__menu--hidden" >
+                <li class="header__item header__item--active">Home</li>
+                <li class="header__item"><a href="#about">About</a></li>
+                <li class="header__item"><a href="#project">Projects</a></li>
+                <li class="header__item"><a href="#contact">Contact</a></li>
+            </ul>
+            <svg class="header__open"  xmlns="http://www.w3.org/2000/svg"  
+            width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  
+            stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  
+            class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" />
+        </svg>
+        <svg class="header__close header__menu--hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+        </nav>
+    </header>
+    <main class="main">
+            <section class="about" id="about">
+                <h2 class="about__title">About Me</h2>
+                <div class="about__data">
+                    <div class="about__info">
+                        <h1 class="about__name"></h1>
+                        <h3 class="about__education"></h3>
+                        <p class="about__description"></p>
+                    </div>
+                    <img class="about__profile-picture" src="" alt="profile daniel picture">
+                </div>
+            </section>
+            <div class="skills">
+                <section>
+                    <details>
+                        <summary class="skills__title">Technical Skills</summary>
+                        <ul class="skills__list skills__list--technical">
+                    </ul>
+                </details>
+                </section>
+                <section>
+                    <details>
+                        <summary class="skills__title">Soft Skills</summary>
+                    <ul class="skills__list skills__list--soft">
+                    </ul>
+                </details>
+                </section>
+            </div>
+            <section class="project" id="project">
+                <h2 class="project__title">Projects</h2>
+                <div class="project__data" id="projects">
+                </div>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <div id="modal-content"></div>
+                    </div>
+                </div>
+            </section>
+                
+    <section class="contact" id="contact">
+        <h2 class="contact__title">Contact</h2>
+        <form>
+            <fieldset class="contact__form-container">
+                <legend>Personal Information</legend>
+                <label>
+                    Name
+                    <input class="contact__input" type="text" name="user-name" placeholder="John" required/>
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="user-email" placeholder="JohnDoe@mail.com" required/>
+                </label>
+                <label>
+                    Your message
+                    <textarea name="reason-contact" rows="4" cols="50" placeholder="Enter your message" required></textarea>
+                </label>
+                <button class="button__message">Send</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+    <footer class="footer">
+        <nav>
+            <ul class="footer__list">
+                <li class="footer__social-media"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a></li>
+                <li class="footer__social-media"><a href="https://twitter.com/" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
+                <li class="footer__social-media"><a href="https://www.linkedin.com/in/darluna/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></li>
+                <li class="footer__social-media"><a href="https://github.com/leinadanul" target="_blank"><i class="fab fa-github"></i></li>
+            </ul>
+        </nav>
+    </footer>
+    <script type="module" src="/src/ts/main.ts"></script>
+</body>
+</html>
